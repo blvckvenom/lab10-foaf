@@ -17,7 +17,7 @@
 
 <#bafs> a foaf:Person ;
    rdfs:label "Benito Fuentes Silva" ;
-   rdfs:comment "Estudiante del DCC"@es ;
+   rdfs:comment "Estudiante del DIE"@es ;
    foaf:name "Benito Fuentes Silva" ;
    foaf:givenName "Benito" ;
    foaf:familyName "Fuentes Silva" ;
