@@ -1,5 +1,5 @@
-@base <https://raw.githubusercontent.com/TU_USUARIO/TU_REPOSITORIO/main/foaf.ttl> .
-@prefix bafs: <https://raw.githubusercontent.com/TU_USUARIO/TU_REPOSITORIO/main/foaf.ttl#> .
+@base <https://raw.githubusercontent.com/blvckvenom/lab10-foaf/refs/heads/main/foaf.ttl> .
+@prefix bafs: <https://raw.githubusercontent.com/blvckvenom/lab10-foaf/refs/heads/main/foaf.ttl#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -37,4 +37,4 @@
    social:hasSpiritAnimal dbr:Cat ;
    social:hasFavouritePlatonicSolid dbr:Tetrahedron ;
    foaf:nick "Benito" ;
-   foaf:birthday "MM-DD" .
+   foaf:birthday "05-08" .
