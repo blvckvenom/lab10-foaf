@@ -1,0 +1,40 @@
+@base <https://raw.githubusercontent.com/TU_USUARIO/TU_REPOSITORIO/main/foaf.ttl> .
+@prefix bafs: <https://raw.githubusercontent.com/TU_USUARIO/TU_REPOSITORIO/main/foaf.ttl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix dbr:   <http://dbpedia.org/resource/> .
+
+<> a foaf:Document ;
+   dc:date "2025-10-24"^^xsd:date ;
+   dc:title "Benito's FOAF Profile"@en ;
+   foaf:primaryTopic <#bafs> ;
+   dc:creator <#bafs> .
+
+<#bafs> a foaf:Person ;
+   rdfs:label "Benito Fuentes Silva" ;
+   rdfs:comment "Estudiante del DCC"@es ;
+   foaf:name "Benito Fuentes Silva" ;
+   foaf:givenName "Benito" ;
+   foaf:familyName "Fuentes Silva" ;
+   foaf:age 24 ;
+   foaf:img <https://media.licdn.com/dms/image/v2/D4E03AQFguOw27myt9w/profile-displayphoto-scale_400_400/B4EZnveYsxKgAg-/0/1760659345129?e=1762992000&v=beta&t=GPdaQcLPDts-v1nvcBXbE0ciPVFZacS3b0h0E5szE_s> ;
+   foaf:homepage <https://www.linkedin.com/in/benito-fuentes-silva> ;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> ,
+              <http://users.dcc.uchile.cl/~pmendoza/foaf.ttl#pm> ,
+              <http://raw.githubusercontent.com/juansebm/lab10_webofdata/main/foaf.ttl#juanvale> ,
+              <http://raw.githubusercontent.com/Marmaduke23/watos/refs/heads/main/foaf.ttl#jjj> ;
+   foaf:interest dbr:Semantic_Web ,
+                 dbr:Artificial_intelligence ,
+                 dbr:Machine_learning ,
+                 dbr:Large_language_model ;
+   social:likesMovie dbr:Spider-Man_2 ,
+                     dbr:Inception ;
+   social:hasSpiritAnimal dbr:Cat ;
+   social:hasFavouritePlatonicSolid dbr:Tetrahedron ;
+   foaf:nick "Benito" ;
+   foaf:birthday "MM-DD" .
